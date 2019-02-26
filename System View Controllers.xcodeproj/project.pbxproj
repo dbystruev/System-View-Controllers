@@ -12,6 +12,9 @@
 		69088BB42225AC2A00E73A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69088BB22225AC2A00E73A26 /* Main.storyboard */; };
 		69088BB62225AC3300E73A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69088BB52225AC3300E73A26 /* Assets.xcassets */; };
 		69088BB92225AC3300E73A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69088BB72225AC3300E73A26 /* LaunchScreen.storyboard */; };
+		69088BC22225B80F00E73A26 /* ViewController+UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69088BC12225B80F00E73A26 /* ViewController+UIImagePickerControllerDelegate.swift */; };
+		69088BC42225B84E00E73A26 /* ViewController+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69088BC32225B84E00E73A26 /* ViewController+UINavigationControllerDelegate.swift */; };
+		69088BC62225C1B500E73A26 /* ViewController+MFMailComposeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69088BC52225C1B500E73A26 /* ViewController+MFMailComposeViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		69088BB52225AC3300E73A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69088BB82225AC3300E73A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69088BBA2225AC3300E73A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69088BC12225B80F00E73A26 /* ViewController+UIImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UIImagePickerControllerDelegate.swift"; sourceTree = "<group>"; };
+		69088BC32225B84E00E73A26 /* ViewController+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		69088BC52225C1B500E73A26 /* ViewController+MFMailComposeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MFMailComposeViewControllerDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				69088BAE2225AC2A00E73A26 /* AppDelegate.swift */,
-				69088BB02225AC2A00E73A26 /* ViewController.swift */,
+				69088BC02225B7D500E73A26 /* ViewController */,
 				69088BB22225AC2A00E73A26 /* Main.storyboard */,
 				69088BB52225AC3300E73A26 /* Assets.xcassets */,
 				69088BB72225AC3300E73A26 /* LaunchScreen.storyboard */,
 				69088BBA2225AC3300E73A26 /* Info.plist */,
 			);
 			path = "System View Controllers";
+			sourceTree = "<group>";
+		};
+		69088BC02225B7D500E73A26 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69088BB02225AC2A00E73A26 /* ViewController.swift */,
+				69088BC12225B80F00E73A26 /* ViewController+UIImagePickerControllerDelegate.swift */,
+				69088BC32225B84E00E73A26 /* ViewController+UINavigationControllerDelegate.swift */,
+				69088BC52225C1B500E73A26 /* ViewController+MFMailComposeViewControllerDelegate.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69088BB12225AC2A00E73A26 /* ViewController.swift in Sources */,
+				69088BC42225B84E00E73A26 /* ViewController+UINavigationControllerDelegate.swift in Sources */,
+				69088BC62225C1B500E73A26 /* ViewController+MFMailComposeViewControllerDelegate.swift in Sources */,
+				69088BC22225B80F00E73A26 /* ViewController+UIImagePickerControllerDelegate.swift in Sources */,
 				69088BAF2225AC2A00E73A26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
